@@ -1,0 +1,64 @@
+.container{
+	height: 650px;
+	width: 31%;
+	background-color: green;
+	float: left;
+	margin-top: 2.8%;
+	margin-left: 2%;
+}
+.fcontainer{
+	height: 200px;
+	width: 95%;
+	background-color: brown;
+	margin-top: 2%;
+	margin-left:2.5%;
+
+	img{
+		height: 200px;
+		width: 100%;	
+	}
+}
+.scontainer{
+	height: 428px;
+	width: 95%;
+	background-color: #a55540;
+	margin-top: 2%;
+	margin-left:2.5%;
+	float: left;
+	color: white;
+	font-size: 25px;
+	line-height: 35px;
+}
+
+.contents{
+		--background: #bf914b;
+	}
+     
+.head{
+	  --background:  rgb(167, 141, 138);
+	  color: white;
+	  font-weight: bolder;
+	  font-size: 15%;
+	  font-family: sans-serif;
+	 }
+h5{
+	margin-top: 1px;
+	margin-left:3%;
+	font-family: monospace;
+}
+.but{
+	height: 30px;
+	width: 40%;
+	margin-top: 7%;
+	--background: #062f77;
+	font-weight: bolder;
+	
+
+}
+ion-button{
+		--background: #062f77;
+		}
+
+p{
+	font-weight: bolder;
+}

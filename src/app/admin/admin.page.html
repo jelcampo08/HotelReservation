@@ -1,0 +1,44 @@
+<ion-header>
+  <ion-toolbar class="head">
+    <ion-button slot="start" style="min-width:45px;">
+      <ion-back-button default ref="/home">
+      </ion-back-button>
+    </ion-button> 
+  </ion-toolbar>
+</ion-header>
+
+<ion-content padding class="contents">
+<div style="margin-left: 35%; margin-top: 5%;">
+  <form id="#form">
+    <ion-grid>
+      <ion-row color="white" justify-content-center>
+        <ion-col align-self-center size-md="6" size-lg="5" size-xs="12">
+          <div text-center>
+            <center><h2 style="color: white;"><b>ADMIN LOGIN</b></h2></center>
+          </div>
+          <br>
+          <div padding>
+            <ion-item>
+              <ion-input name="username" type="text" placeholder="Username" required name="username" [(ngModel)]="a_username"></ion-input>
+            </ion-item>
+            <br>
+            <ion-item>
+              <ion-input name="password" type="password" placeholder="Password" required [(ngModel)]="a_password"></ion-input>
+            </ion-item>
+          </div>
+          <br><br>
+          <div padding>
+            <ion-button size="large" type="submit" expand="block" routerLink="/dashboard">Login</ion-button>
+          </div>
+        </ion-col>
+      </ion-row>
+      <br><br><br>
+      <ion-row>
+          <div>
+
+          </div>
+      </ion-row>
+    </ion-grid>
+  </form>
+ </div>
+</ion-content>

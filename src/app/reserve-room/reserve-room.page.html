@@ -1,0 +1,87 @@
+<ion-header>
+  <ion-toolbar class="head">
+  	<ion-button slot="start" style="min-width:45px;">
+      <ion-back-button default ref="/home">
+      </ion-back-button>
+    </ion-button> 
+    <ion-title>Book A Room</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="contents">
+<center>
+	<form style="width: 80%;">
+		<ion-card-content>
+				<ion-item lines="full" style="--background: red; color: white; font-weight: bolder;">
+				<ion-label>
+					<center><strong>HOTEL RESERVATION DETAILS</strong></center>
+				</ion-label>
+			</ion-item>
+			<ion-item lines="full" style="--background: blue; color: white; font-weight: bolder;">
+				<ion-label>
+					<strong>ADD GUEST INFORMATIONS</strong>
+				</ion-label>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label position="floating">GUEST NAME</ion-label>
+				<ion-input type="text" shape="round"></ion-input>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label position="floating">GUEST ADDRESS</ion-label>
+				<ion-input type="text" shape="round"></ion-input>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label position="floating">CONTACT NUMBER</ion-label>
+				<ion-input type="text" shape="round"></ion-input>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label position="floating">EMAIL ADDRESS</ion-label>
+				<ion-input type="text"></ion-input>
+			</ion-item>
+			<ion-item lines="full" style="--background: blue; color: white; font-weight: bolder; width: 100%;">
+				<ion-label>
+					<strong>ADD ROOM INFORMATIONS</strong>
+				</ion-label>
+			</ion-item>	
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label position="floating">ROOM PREFERENCE</ion-label>
+				<ion-select type="text" placeholder="Select your room preferences">
+					<ion-select-option>Standard</ion-select-option>
+					<ion-select-option>Deluxe</ion-select-option>
+					<ion-select-option>Suite</ion-select-option>
+				</ion-select>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label position="floating">NO. OF DAYS</ion-label>
+				<ion-input type="NUMBER" shape="round"></ion-input>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label position="floating">NO. OF OCCUPANTS</ion-label>
+				<ion-input type="NUMBER" shape="round"></ion-input>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+          		<ion-label position="floating">EXTRA BED</ion-label>
+          		<ion-input type="NUMBER" shape="round"></ion-input>
+        	</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label>CHECK-IN DATE</ion-label>
+				<ion-input type="DATE" shape="round"></ion-input>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label>CHECK-IN TIME</ion-label>
+			<ion-input type="TIME" shape="round"></ion-input>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label>CHECK-OUT DATE</ion-label>
+				<ion-input type="DATE" shape="round"></ion-input>
+			</ion-item>
+			<ion-item style="width: 50%; float: left;" lines="full">
+				<ion-label>CHECK-OUT TIME</ion-label>
+			<ion-input type="TIME" shape="round"></ion-input>
+			</ion-item>
+          		<ion-button style="height: 35px; width: 35%px; color: white; font-weight: bolder; font-size: 20px; --background: green; margin-left: 90%; margin-top: 2%;" >BOOK</ion-button>
+
+		</ion-card-content>
+	</form>
+</center>
+</ion-content>

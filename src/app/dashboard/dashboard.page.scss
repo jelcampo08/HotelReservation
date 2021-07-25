@@ -1,0 +1,80 @@
+.container{
+	height: 250px;
+	width: 35%;
+	background-color: green;
+	float: left;
+	margin-top: 2.8%;
+	margin-left: 9.5%;
+}
+.fcontainer{
+	height: 228px;
+	width: 35%;
+	background-color: #f1e3cb;
+	margin-top: 2%;
+	margin-left:2%;
+	float: left;
+}
+.scontainer{
+	height: 90px;
+	width: 58%;
+	background-color: brown;
+	margin-top: 2%;
+	margin-left:2.8%;
+	float: left;
+	font-family: Georgia;
+	font-weight: bolder;
+	color: white;
+	font-size: 25px;
+	line-height: 35px;
+
+	p{
+		margin-left: 30px;
+	}
+}
+.scontainers{
+	height: 90px;
+	width: 58%;
+	background-color: brown;
+	margin-top: 2%;
+	margin-left:2.8%;
+	float: left;
+	font-family: Georgia;
+	font-weight: bolder;
+	color: white;
+	font-size: 25px;
+	line-height: 25px;
+
+	p{
+		margin-left: 45px;
+	}
+}
+.tcontainer{
+	height: 128px;
+	width: 58%;
+	background-color: black;
+	margin-top: 2%;
+	margin-left:2.8%;
+	float: left;
+	color: white;
+	font-size: 100px;
+	font-weight: bolder;
+
+	ion-input{
+		margin-left: 70px;
+	}
+}
+.contents{
+		--background: #bf914b;
+	}
+     
+.head{
+	  --background:  rgb(167, 141, 138);
+	  color: white;
+	  font-weight: bolder;
+	  font-size: 15%;
+	  font-family: sans-serif;
+	 }
+img{
+	margin-top: 20%;
+	
+}

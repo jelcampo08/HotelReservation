@@ -1,0 +1,40 @@
+<ion-header>
+  <ion-toolbar class="head">
+  	<ion-button slot="start" style="min-width:45px; color: green;">
+      <ion-back-button default ref="/home">
+      </ion-back-button>
+    </ion-button> 
+    <ion-title></ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content class="contents">
+		<div class="bookbox">
+		<h4 style="font-size: 25px; color: white; font-family: monospace; text-shadow: 1px 2px 1px blue; text-align: center;">RESERVED ROOMS</h4> 
+
+		<ion-grid>
+			<ion-row>
+				<ion-col class="th">ID.</ion-col>
+				<ion-col class="th">GUEST NAME</ion-col>
+				<ion-col class="th">CONTACT NO.</ion-col>
+				<ion-col class="th">ROOM TYPE</ion-col>
+				<ion-col class="th">RATE PER NIGHT</ion-col>
+				<ion-col class="th">CHECK IN DATE</ion-col>
+				<ion-col class="th">ACTION</ion-col>
+			</ion-row>
+			<ion-row *ngFor="let reserve of reserves">
+				<ion-col></ion-col>
+				<ion-col></ion-col>
+				<ion-col></ion-col>
+				<ion-col></ion-col>
+				<ion-col></ion-col>
+				<ion-col></ion-col>
+				<ion-col>
+					<ion-button style="height: 25px; width: 70px; color: white; font-weight: bolder; font-size: 12px; --background:green;">CONFIRM</ion-button>
+					<ion-button style="height: 25px; width: 70px; color: white; font-weight: bolder; font-size: 12px; --background:red;">CANCEL</ion-button>
+				</ion-col>
+			</ion-row>
+
+		</ion-grid>
+		</div>
+</ion-content>
